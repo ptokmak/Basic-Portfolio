@@ -1,0 +1,115 @@
+body {
+	width: 960px;
+	font-family: "Georgia",Times New Roman,Times,serif;
+	margin: auto;
+}
+header {
+	background-color: #ffffff;
+	width: 100%;
+	height:94px;
+	border:2px dotted black;
+	overflow: hidden;
+}
+header h1{
+	text-align: center;	
+	float: left;	
+    margin-left: 85px;    
+    margin-top: 30px;
+    padding: 15px;
+    border: 0.5px solid black;
+    background: #4aaaa5;
+}
+header nav{
+	float:right;
+	padding: 38px;
+    margin-right: 75px;
+}
+section{
+	width: 100%;
+	height: auto;
+	border-bottom:3px solid black;	
+	height: 610px;
+
+}
+section h2{
+	border-bottom:1.5px solid black;	
+	margin-left: 15px;
+    margin-right: 15px;
+}
+.content{
+	border-image: url(assets/images/concrete_seamless.png);
+	border-bottom:3px dotted black;	
+	width: 100%;
+	overflow: hidden;
+	/*margin-left: 85px;*/
+    /*margin-top: 20px;*/
+    background-color: peachpuff;
+    height:762px;
+
+}
+#main-content{
+	width: 50%;
+	height: 500px;
+	border:1.5px solid black;
+	float: left;
+	margin-left: 85px;
+	margin-top: 25px;
+	background-color: #ffffff;
+}
+#main-content p{
+
+}
+#sidebar{
+	width: 26.5%;
+	height: 160px;
+	border:1px solid black;
+	margin-left: 65%;
+	margin-top: 25px;
+	background-color: #ffffff;
+}
+
+#sidebar h3{
+	border-bottom:1px solid black;
+	margin-left: 15px;
+    margin-right: 15px;
+}
+#main-content img{
+	padding-right: 15px;
+	margin-left: 15px;
+}
+
+li img{
+		height: 50px;
+		width: 50px;
+		padding-right: 3px;
+	
+
+}
+a:link{
+	text-decoration: none;
+	color: inherit;
+
+}
+
+
+li{
+	display:inline;
+	text-decoration: none;
+}
+
+
+footer {
+	background: #666666;	
+	width: 100%;
+	height:80px;
+	border:2px solid black;
+	text-align:center;
+	clear: both;
+}
+
+#top_bar{
+	width:100%;
+	height: 6px;
+	background-color: #4aaaa5;
+	float:top;
+}
